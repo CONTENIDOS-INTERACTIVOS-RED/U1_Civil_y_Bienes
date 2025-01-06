@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: 'Derechos reales y usufructo',
+    numeroUnidad: '1',
+    tituloUnidad: 'Conceptos fundamentales y clasificación de los bienes',
   },
   menuPrincipal: {
     menu: [
@@ -15,36 +15,60 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Derechos reales',
+        titulo: 'Definición de bienes, según el Código Civil',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Propiedad y posesión',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Posesión y propiedad inmueble: una relación compleja y necesaria',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Usufructo',
+        titulo:
+          'Clasificación de bienes: muebles, inmuebles, fungibles, consumibles y divisibles',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Clasificación general: bienes corporales e incorporales',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Clasificación, según su movilidad',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Clasificación, según el uso',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Clasificación, según la fungibilidad',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Clasificación, según divisibilidad',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Clasificación, según su situación jurídica',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Servidumbres: constitución y extinción',
+        titulo: 'Propiedades comunes y privadas',
         desarrolloContenidos: true,
       },
       {
@@ -85,109 +109,100 @@ export default {
   referencias: [
     {
       referencia:
-        'Clemente Meoro, M. (2016). Cuaderno V: derechos reales limitados de goce. Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/63073 ',
+        'Campos Lozada, M. (2017). Bienes y derechos reales. IURE Editores. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40193',
     },
     {
       referencia:
-        'Santillán Santa Cruz, R. V. (2011). ¿Puede vulnerarse la libertad de tránsito del propietario del predio sirviente al no permitírsele circular por una servidumbre de paso constituida sobre su predio a favor de otro? Comentario a la STC Exp. Nº 02006-2011-PHC/TC. Revista de Investigación Jur. Red Universidad Católica Santo Toribio de Mogrovejo. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/28010 ',
+        'Larrea Holguín, J. (2008). Manual elemental de Derecho Civil 3. Volumen 3: los bienes y la posesión. Corporación de Estudios y Publicaciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/11504',
     },
     {
-      referencia: 'Rogel Vide, C. (2015). La nuda propiedad. Editorial Reus. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/46602 ',
+      referencia:
+        'Medina Pabón, J. E. (2019). Derecho Civil. Bienes. Derechos reales (2 ed.). Universidad del Rosario. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/117630',
     },
   ],
   glosario: [
     {
-      termino: 'Accesoriedad',
+      termino: 'Apropiabilidad',
       significado:
-        'Característica de ciertos derechos reales, como las servidumbres, que están vinculados a los bienes (predios) y no a las personas, permaneciendo inalterados aunque cambie el propietario.',
+        'Capacidad de un bien para ser poseído por una persona física o jurídica, siendo objeto de relaciones patrimoniales.',
     },
     {
-      termino: 'Bienes',
+      termino: 'Bien común',
       significado:
-        'Todo aquello que puede ser objeto de apropiación y que satisface necesidades humanas, clasificándose en muebles, inmuebles, tangibles o intangibles.',
+        'Bien destinado al uso colectivo, como carreteras, ríos o parques, regulados para garantizar el interés general.',
     },
     {
-      termino: 'Código Civil Colombiano',
+      termino: 'Bien corpóreo',
       significado:
-        'Conjunto de normas que regula las relaciones jurídicas entre personas y bienes en Colombia, incluyendo derechos reales como la propiedad, posesión, usufructo y servidumbres.',
+        'Bien que tiene existencia física y puede ser percibido por los sentidos, como un inmueble o un vehículo..',
     },
     {
-      termino: 'Confusión',
+      termino: 'Bien incorporal',
       significado:
-        'Extinción de una servidumbre cuando el predio dominante y el predio sirviente pasan a ser propiedad de la misma persona.',
+        'Bien intangible que representa derechos o intereses económicos, como una servidumbre o un crédito.',
     },
     {
-      termino: 'Derechos reales',
+      termino: 'Bien mueble',
       significado:
-        'Derechos que otorgan a una persona un poder directo e inmediato sobre un bien, como la propiedad, la posesión, el usufructo y las servidumbres.',
+        'Objeto que puede ser trasladado de un lugar a otro, sin perder su esencia, como un vehículo o una joya.',
+    },
+    {
+      termino: 'Bien privado',
+      significado:
+        'Propiedad exclusiva de una persona natural o jurídica, que goza de derechos de uso, disfrute y disposición.',
+    },
+    {
+      termino: 'Bien público',
+      significado:
+        'Propiedad del Estado, destinada al uso de toda la población, protegida por su inalienabilidad e imprescriptibilidad.',
+    },
+    {
+      termino: 'Clasificación de bienes',
+      significado:
+        'Organización de los bienes jurídicos, según características como movilidad, divisibilidad, fungibilidad y uso.',
+    },
+    {
+      termino: 'Código civil',
+      significado:
+        'Conjunto de normas que regulan las relaciones patrimoniales y personales, entre individuos, incluyendo la propiedad.',
+    },
+    {
+      termino: 'Expropiación',
+      significado:
+        'Mecanismo mediante el cual el Estado adquiere un bien privado por razones de utilidad pública o interés social, con indemnización previa.',
     },
     {
       termino: 'Función social de la propiedad',
       significado:
-        'Limitación legal al derecho de propiedad que exige que su uso beneficie no solo al propietario sino también a la sociedad, regulado en el Artículo 58 de la constitución de Colombia.',
+        'Principio constitucional que condiciona el ejercicio de la propiedad privada, al bienestar colectivo y el interés general.',
     },
     {
-      termino: 'Indivisibilidad',
+      termino: 'Propiedad horizontal',
       significado:
-        'Propiedad de ciertos derechos, como las servidumbres, que no pueden dividirse en su ejercicio, beneficiando al predio dominante en su totalidad.',
+        'Régimen legal aplicable a edificios y conjuntos residenciales, donde existen áreas privadas y comunes, gestionadas colectivamente.',
     },
     {
-      termino: 'Nudo propietario',
+      termino: 'Propiedad privada',
       significado:
-        'Propietario de un bien gravado con un usufructo, que conserva la titularidad pero no el derecho al uso y disfrute durante la vigencia del usufructo.',
+        'Derecho exclusivo de una persona sobre un bien, que le otorga facultades de uso, goce y disposición, sujeto a restricciones legales.',
     },
     {
-      termino: 'Prescripción adquisitiva',
+      termino: 'Propiedad pública',
       significado:
-        'Mecanismo legal mediante el cual una persona adquiere la propiedad de un bien tras poseerlo de manera pacífica, continua y pública durante un tiempo determinado.',
+        'Bienes que pertenecen al Estado, destinados a satisfacer necesidades colectivas y protegidos por su carácter imprescriptible.',
     },
     {
-      termino: 'Propiedad',
+      termino: 'Restricción legal',
       significado:
-        'Derecho real que otorga a su titular el uso, goce y disposición de un bien, limitado por la ley y el respeto a los derechos de terceros.',
+        'Limitación impuesta al ejercicio del derecho de propiedad para proteger intereses colectivos, como las normas ambientales o urbanísticas.',
     },
     {
-      termino: 'Posesión',
+      termino: 'Servidumbre',
       significado:
-        'Tenencia de un bien con ánimo de señor y dueño, aunque no se cuente con un título legal que respalde la propiedad.',
-    },
-    {
-      termino: 'Predio dominante',
-      significado:
-        'Bien inmueble que se beneficia de una servidumbre, como el derecho de paso sobre un predio vecino.',
-    },
-    {
-      termino: 'Predio sirviente',
-      significado:
-        'Bien inmueble que soporta una servidumbre, como permitir el paso de vehículos o personas de un predio dominante.',
-    },
-    {
-      termino: 'Temporalidad del usufructo',
-      significado:
-        'Característica del usufructo que lo limita a un periodo específico, ya sea un plazo definido o vitalicio.',
-    },
-    {
-      termino: 'Servidumbres',
-      significado:
-        'Derechos reales que permiten al propietario de un bien (predio dominante) beneficiarse del uso de otro bien ajeno (predio sirviente).',
-    },
-    {
-      termino: 'Usufructo',
-      significado:
-        'Derecho real que otorga a una persona el uso y disfrute de un bien ajeno, respetando su esencia y devolviéndole al propietario al finalizar el usufructo.',
-    },
-    {
-      termino: 'Usucapión',
-      significado:
-        'Forma de prescripción adquisitiva que permite a una persona convertirse en propietario de un bien tras poseerlo pacífica y continuamente durante el tiempo exigido por la ley.',
-    },
-    {
-      termino: 'Vinculación jurídica',
-      significado:
-        'Relación legal que se establece entre una persona y un bien, como en los derechos reales, que permite su uso, disfrute o disposición.',
+        'Derecho que permite el uso parcial de un bien ajeno, como el paso de tuberías o acceso a caminos, en beneficio de otro predio o persona.',
     },
   ],
 }

@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Los derechos reales en el derecho civil, como propiedad, posesión, usufructo y servidumbres, regulan la relación entre personas y bienes, garantizando su uso, disfrute y transferencia. La propiedad otorga control pleno sobre un bien, mientras que la posesión implica una relación de hecho con potencial de convertirse en propiedad, mediante prescripción. El usufructo permite usar un bien ajeno respetando su esencia, y las servidumbres facilitan el acceso y servicios entre predios. Estas figuras promueven seguridad jurídica, desarrollo social y equilibrio entre intereses individuales y colectivos, en Colombia.
+              p.descripcion.mb-4 El Código Civil Colombiano distingue entre cosas y bienes, definiendo estos últimos como objetos con valor económico susceptibles de relaciones jurídicas. Los bienes se clasifican en corporales e incorporales, muebles e inmuebles, fungibles y no fungibles, consumibles y no consumibles, divisibles e indivisibles y, según su situación jurídica, en dominio público o privado. Estas categorías son esenciales para regular el patrimonio, que comprende derechos y obligaciones con valor económico. Además, la propiedad, tanto común como privada, cumple una función social, equilibrando el interés colectivo y los derechos individuales en el sistema jurídico.
               
-              p #[b Los sueños se construyen sobre derechos sólidos que impulsan el desarrollo y la equidad.]
+              p #[b Es importante confiar en el camino y nunca dejar de avanzar.]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

@@ -1,173 +1,271 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Usufructo'")
+  BannerInterno(:subTitulo="'2. Clasificación de bienes: muebles, inmuebles, fungibles, consumibles y divisibles'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
 
     .bg-color-1.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg.p-4.px-5.mb-3(data-aos="fade-right")
-          p.mb-0 El usufructo es un derecho real que permite a una persona, conocida como usufructuario, usar y disfrutar de un bien ajeno, respetando su esencia y devolviéndolo al propietario, denominado nudo propietario, al finalizar el periodo estipulado por contrato o por la Ley. Este derecho se aplica tanto a bienes muebles como inmuebles, e incluso a derechos específicos o patrimonios completos. Un ejemplo común es cuando una persona puede vivir en una casa que no le pertenece, beneficiándose de ella sin tener el poder de venderla o hipotecarla.
-        .col-lg-auto(data-aos="fade-left")
+        .col-lg.p-4.px-5.order-2(data-aos="fade-right")
+          p.mb-0 El estudio de la clasificación de los bienes en el Derecho Civil, es fundamental para comprender su tratamiento jurídico y su impacto en las relaciones sociales y patrimoniales. La categorización de los bienes no es solo un ejercicio académico; su utilidad práctica reside en delimitar las normas aplicables a cada tipo de bien, facilitando la administración de la justicia y garantizando la seguridad jurídica, en las transacciones económicas. En el caso del Derecho Civil Colombiano, el Código Civil establece criterios claros para la clasificación de bienes, destacando categorías como bienes muebles, inmuebles, fungibles, consumibles y divisibles.
+        .col-lg-auto.order-1(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema2/1.png', alt='')
     
+    #t_2_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.1] Clasificación general: bienes corporales e incorporales
+
+    p.mb-5 El Código Civil Colombiano, en su Artículo 653, establece una primera distinción entre bienes corporales e incorporales:
+
+    .row.mb-5.justify-content-center
+      .col-lg-4.mb-3(data-aos="flip-left")
+        div.h-100.bg-color-8.p-4.tarjeta.mb-3
+          p #[strong Bienes corporales]
+          p.mb-0 Aquellos que tienen un ser real y pueden ser percibidos por los sentidos, como una casa, un libro o un carro.
+      .col-md-8.col-lg-4.mb-3(data-aos="flip-right").align-content-center
+        figure
+          img.d-flex(src="@/assets/curso/tema2/2.png")
+      .col-lg-4.mb-3(data-aos="flip-right")
+        div.h-100.bg-color-8.p-4.tarjeta.mb-3
+          p #[strong Bienes incorporales]
+          p.mb-0 Consisten en meros derechos, como los créditos y las servidumbres activas.
+    
+    h2(data-aos="fade-right").mb-5 Bienes incorporales
+
+    p Los bienes incorporales no poseen una existencia física, pero tienen una realidad jurídica y un valor económico. Ejemplos incluyen servidumbres, derechos de crédito, marcas comerciales y la reputación de un establecimiento de comercio. Estos bienes, aunque intangibles, forman parte del patrimonio de las personas y son fundamentales en las relaciones jurídicas.
+    p.mb-5 Clasificación de los bienes incorporales:
+
+    TabsC.color-primario.mb-5
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Derechos reales" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Derechos reales
+            p Son aquellos que una persona tiene directamente sobre una cosa, sin depender de una relación con otra persona. 
+            p <b>Ejemplo:</b> la propiedad o el usufructo.
+        
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/3.png', alt='')
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Propiedad" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Derechos personales
+            p Son los que una persona puede exigir a otra, en virtud de una obligación.  
+            p <b>Ejemplo:</b> el pago de un arrendamiento.
+
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/4.png', alt='')
+
+    h2(data-aos="fade-right").mb-5 Bienes corporales
+
+    .row.mb-5.justify-content-center
+      .col-lg-10(data-aos="fade-right")
+        p Los bienes corporales, son aquellos que tienen una existencia física, están compuestos por materia, ocupan un espacio y pueden ser percibidos por los sentidos. Su presencia tangible los convierte en una categoría esencial dentro del Derecho Civil, dado que son la base de muchas relaciones jurídicas patrimoniales.
+      .col-md-8.col-lg-2(data-aos="fade-left")
+        figure
+         img(src="@/assets/curso/tema2/5.png", alt="").mb-4.mb-lg-0
+    
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Clasificación, según su movilidad
+
+    p.mb-5 El Artículo 654 del Código Civil Colombiano, divide las cosas corporales en muebles e inmuebles. La movilidad de los bienes corporales se refiere a su capacidad de ser transportados de un lugar a otro, sin perder su esencia.
+
+    h2(data-aos="fade-right").mb-5 Bienes inmuebles
+
+    p.mb-5 El Artículo 656, define los inmuebles como aquellos bienes que no pueden ser movidos de un lugar a otro, sin alterar su naturaleza. Son ejemplos de estos, las tierras, edificios, plantaciones y las minas. Los tipos de bienes inmuebles son:
+
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white(data-aos="flip-up")
           .row.p-4.p-md-5
             .col-lg-5.mb-3
               figure
-                img(src="@/assets/curso/tema2/2.png")
-            .col-lg-7
-              h5 Temporalidad
-              p El usufructo tiene una duración limitada, ya sea por un periodo específico o de manera vitalicia, al término de la cual, el bien regresa al nudo propietario. 
-              p <b>Ejemplo:</b> un usufructo sobre una vivienda por 15 años, permite al usufructuario disfrutar de ella durante ese tiempo, debiendo devolverla al propietario, al finalizar el tiempo definido.
-          .row.p-4.p-md-5
-            .col-lg-5.mb-3
-              figure
-                img(src="@/assets/curso/tema2/3.png")
-            .col-lg-7
-              h5 Frutos del bien
-              p El usufructuario tiene derecho a percibir los frutos naturales, industriales o civiles, generados por el bien, respetando su esencia. 
-              p <b>Ejemplo:</b> un usufructo sobre una finca permite al usufructuario beneficiarse de las cosechas, mientras no altere el uso agrícola del terreno.
-          .row.p-4.p-md-5
-            .col-lg-5.mb-3
-              figure
-                img(src="@/assets/curso/tema2/4.png")
-            .col-lg-7
-              h5 Limitación en la disposición
-              p El usufructuario no puede vender, hipotecar ni modificar el bien sin autorización, pero puede ceder su derecho de usufructo a terceros. 
-              p <b>Ejemplo:</b> un usufructuario puede arrendar un apartamento objeto del usufructo, pero no puede venderlo.
-          .row.p-4.p-md-5
-            .col-lg-5.mb-3
-              figure
-                img(src="@/assets/curso/tema2/5.png")
-            .col-lg-7
-              h5 Conservación del bien
-              p El usufructuario debe realizar reparaciones ordinarias y mantener el bien en buen estado, mientras que el propietario se encarga de las reparaciones mayores.
-              p <b>Ejemplo:</b> si un usufructo recae sobre un apartamento, el usufructuario debe cubrir los costos de pintura o cambio de griferías, pero no de reparaciones estructurales.
-
-          .row.p-4.p-md-5
-            .col-lg-5.mb-3
-              figure
                 img(src="@/assets/curso/tema2/6.png")
             .col-lg-7
-              h5 Reversibilidad
-              p Al finalizar el usufructo, el bien regresa al nudo propietario en condiciones similares a las originales, salvo deterioros naturales por el uso permitido. 
-              p <b>Ejemplo:</b> un usufructuario que dañó el inmueble, está obligado a repararlo antes de devolverlo al propietario.
-    
+              h5 Por naturaleza
+              p Terrenos y tierras que permanecen inmóviles.
+          .row.p-4.p-md-5
+            .col-lg-5.mb-3
+              figure
+                img(src="@/assets/curso/tema2/7.png")
+            .col-lg-7
+              h5 Por adhesión
+              p Bienes unidos de manera permanente al suelo, como construcciones o árboles.
+          .row.p-4.p-md-5
+            .col-lg-5.mb-3
+              figure
+                img(src="@/assets/curso/tema2/8.png")
+            .col-lg-7
+              h5 Por destinación
+              p Bienes muebles que se consideran inmuebles, por su asociación con un inmueble, como maquinaria agrícola.
+
+    h2(data-aos="fade-right").mb-5 Bienes muebles
+
+    .row.align-items-center.bg-ppal-azul.p-4.mb-5
+      .col-lg-auto(data-aos="fade-right")
+        img(src="@/assets/curso/tema2/9.svg", style="max-width: 90px").mx-auto
+      .col-lg.mb-3
+        p.mb-0 Son bienes que pueden ser desplazados de un lugar a otro, sin perder su esencia, como vehículos, muebles y objetos personales.
+
+   
     .bg-full-width.bg-fondo-1
-      .px-4.px-md-5.pb-md-3
+      .px-4.px-lg-5.pb-md-3  
+        #t_2_3.titulo-segundo(data-aos="flip-up")
+          h2 #[span 2.3] Clasificación, según el uso
 
-        h2.mb-5(data-aos="fade-right") Regulación en Colombia
+        p.mb-5 La clasificación de bienes, según el uso, se fundamenta en su capacidad de ser consumidos o reutilizados. Esto resulta esencial para definir su función en contratos civiles y comerciales.
 
-        p.mb-5 En el marco legal colombiano, el usufructo está regulado por los Artículos 823 y siguientes, del Código Civil. Este derecho puede constituirse de diversas formas:
 
-        div.row.justify-content-center.align-items-stretch.mb-5
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-ppal-azul.box-shadow.px-4.py-5.h-100.tarjeta
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema2/7.svg"
-                alt=""
-                style="width: 90px"
-              )
-              p.text-center.text-bold Usufructo legal
-              p.mb-0.text-center Surge por disposición de la ley en situaciones específicas.
-              p.text-center <b><b>Ejemplo:</b></b> los padres tienen el usufructo de los bienes de sus hijos menores, según el Artículo 253 del Código Civil.
-
-          
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-ppal-azul.box-shadow.px-4.py-5.h-100.tarjeta
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema2/8.svg"
-                alt=""
-                style="width: 90px"
-              )
-              p.text-center.text-bold Usufructo voluntario
-              p.mb-0.text-center Se establece mediante contrato o testamento, especificando las condiciones y duración del derecho.
-              p.text-center <b><b>Ejemplo:</b></b> un testador otorga el usufructo vitalicio de una vivienda a su cónyuge, mientras que los hijos reciben la nuda propiedad.
-
-          
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-ppal-azul.box-shadow.px-4.py-5.h-100.tarjeta
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema2/9.svg"
-                alt=""
-                style="width: 90px"
-              )
-              p.text-center.text-bold Usufructo por prescripción
-              p.mb-0.text-center Se adquiere mediante posesión prolongada y pacífica con ánimo de usufructuario, cumpliendo requisitos legales.
-              p.text-center <b><b>Ejemplo:</b></b> una persona que ha usufructuado un terreno por más de 10 años, podría regularizar su derecho si se cumplen las condiciones legales
-
-    p.mb-5 El usufructo puede recaer sobre diferentes tipos de bienes, como viviendas, terrenos, cuentas de inversión o colecciones de arte. Sin importar el objeto, el usufructuario tiene la obligación de respetar la naturaleza del bien y garantizar su adecuada conservación.
-
-    .row.mb-5.justify-content-center
-      .col-lg-10
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema2/10.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Bienes consumibles
+                p.mb-0 Son bienes que se destruyen o agotan con su primer uso, como alimentos, combustibles o productos de limpieza.
+          .col-lg-6.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema2/11.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Bienes no consumibles
+                p.mb-0 Son bienes que pueden ser usados repetidamente, sin destruirse, como herramientas, maquinaria o muebles.
+    
+    .row.mb-5
+      .col-xl-7
         .titulo-figura.mb-4
-          h5 Tabla 3. 
-          span Obligaciones del usufructuario y del propietario 
+          h5 Tabla 1. 
+          span Diferencias claves entre bienes consumibles y no consumibles 
 
         .tabla-a.color-terciario.mb-5(data-aos="zoom-in") 
           table
             thead
               tr
-                th.bg-color-4 Obligaciones del usufructuario
-                th.bg-color-4 Obligaciones del propietario
+                th.bg-color-4 Característica
+                th.bg-color-4 Consumibles
+                th.bg-color-4 No consumibles
             tbody
               tr.bg-color-5
-                td Mantener el bien en buen estado y realizar reparaciones ordinarias.
-                td Realizar reparaciones extraordinarias necesarias para conservar el bien.
+                td.text-bold Naturaleza
+                td Perecederos.
+                td Duraderos.
                 
               tr.bg-color-5
-                td Respetar la naturaleza y el destino del bien, evitando alteraciones.
-                td No interferir en el disfrute del usufructuario mientras este cumpla con sus obligaciones.
+                td.text-bold Uso
+                td Se agotan con el uso.
+                td Reutilizables.
               
               tr.bg-color-5
-                td Restituir el bien en condiciones originales o pactadas al término del usufructo.
-                td Garantizar que el usufructuario pueda ejercer su derecho de manera plena y pacífica.
-                
-    h2.mb-5(data-aos="fade-right") Extinción del usufructo
-
-    p.mb-5 El usufructo puede terminar por diversas razones, establecidas en el Artículo 866 del Código Civil:
+                td.text-bold Contratos típicos
+                td Compraventa, permuta.
+                td Comodato, arrendamiento.
+              tr.bg-color-5
+                td.text-bold Restitución
+                td Imposible.
+                td Posible.
     
-    .row.mb-5.justify-content-center
-      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
-        figure
-          img(src="@/assets/curso/tema2/10-1.svg")
-      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
-        figure
-          img(src="@/assets/curso/tema2/10-2.svg")
-      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
-        figure
-          img(src="@/assets/curso/tema2/10-3.svg")
-      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
-        figure
-          img(src="@/assets/curso/tema2/10-4.svg")
-
-
-    h2.mb-5(data-aos="fade-right") Usufructo como herramienta jurídica versátil
-
-    p.mb-5 El usufructo tiene aplicaciones prácticas significativas, en diversos contextos:
+    #t_2_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.4] Clasificación, según la fungibilidad
 
     .row.mb-5.justify-content-center
-      .col-md-8.col-lg-3.mb-3(data-aos="flip-right")
+      .col-lg-10.order-2(data-aos="fade-right")
+        p La fungibilidad de un bien se refiere a su capacidad para ser reemplazado por otro de la misma especie, calidad y cantidad. Esta clasificación resulta crucial en contratos donde se intercambian bienes idénticos o únicos.
+      .col-md-8.col-lg-2.order-1(data-aos="fade-left")
         figure
-          img(src="@/assets/curso/tema2/11.png")
-      .col-lg-3.mb-3(data-aos="flip-left")
-        div.h-100.bg-color-1.p-4.tarjeta.mb-3
-          p #[strong Protección habitacional]
-          p.mb-0 Permite que una persona, como un cónyuge sobreviviente, pueda seguir viviendo en una vivienda sin ser propietario.
-      .col-lg-3.mb-3(data-aos="flip-right")
-        div.h-100.bg-color-1.p-4.tarjeta.mb-3
-          p #[strong Explotación económica]
-          p.mb-0 Facilita el uso productivo de bienes agrícolas o inmuebles, garantizando un equilibrio entre disfrute y conservación.
-      .col-lg-3.mb-3(data-aos="flip-left")
-        div.h-100.bg-color-1.p-4.tarjeta.mb-3
-          p #[strong Planificación sucesoria]
-          p.mb-0 Ofrece opciones para dividir derechos entre usufructuarios y nudo propietarios, optimizando la transferencia de bienes.
+         img(src="@/assets/curso/tema2/12.png", alt="").mb-4.mb-lg-0
+    
+    .row.mb-5
+      .col-xl-7
+        .titulo-figura.mb-4
+          h5 Tabla 2. 
+          span Diferencias claves entre bienes fungibles y no fungibles 
 
-    p.mb-5 El usufructo en Colombia, representa una herramienta legal flexible y equilibrada que armoniza los intereses del usufructuario y del propietario, fomentando el uso productivo de los bienes y protegiendo los derechos de propiedad a largo plazo.
+        .tabla-a.color-terciario.mb-5(data-aos="zoom-in") 
+          table
+            thead
+              tr
+                th.bg-color-4 Aspecto
+                th.bg-color-4 Bienes fungibles
+                th.bg-color-4 Bienes no fungibles
+            tbody
+              tr.bg-color-5
+                td.text-bold Intercambiabilidad
+                td Sí.
+                td No.
+                
+              tr.bg-color-5
+                td.text-bold Medición
+                td Por peso o número.
+                td Individualmente.
+              
+              tr.bg-color-5
+                td.text-bold Contrato típico
+                td Mutuo.
+                td Comodato, arrendamiento.
+    
+    #t_2_5.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.5] Clasificación, según divisibilidad
+    
+    p.mb-5 La divisibilidad de un bien se determina por su capacidad de fraccionarse sin perder su utilidad o valor.
+
+    .row.align-items-start.mb-5.justify-content-center
+      .col-md-8.col-lg-5.mb-3(data-aos="fade-right")
+        figure
+          img(src="@/assets/curso/tema2/13.png", alt="").mb-4.mb-lg-0
+      .col-lg-7(data-aos="fade-left")
+        AcordionA(tipo="b")
+          .div(titulo="Bienes divisibles")
+            p Son bienes que pueden fraccionarse en partes, sin perder su utilidad o valor proporcional, como un terreno. 
+          .div(titulo="Bienes indivisibles")
+            p Son bienes que no pueden dividirse sin perder su esencia o funcionalidad, como un automóvil o una joya.
+    
+    .row.mb-5
+      .col-xl-7
+        .titulo-figura.mb-4
+          h5 Tabla 3. 
+          span Diferencias claves entre bienes divisibles e indivisibles 
+
+        .tabla-a.color-terciario.mb-5(data-aos="zoom-in") 
+          table
+            thead
+              tr
+                th.bg-color-4 Aspecto
+                th.bg-color-4 Bienes divisibles
+                th.bg-color-4 Bienes indivisibles
+            tbody
+              tr.bg-color-5
+                td.text-bold Fraccionamiento
+                td Posible.
+                td Imposible.
+              tr.bg-color-5
+                td.text-bold Resolución legal
+                td Se adjudican en partes.
+                td Se adjudican íntegros.
+
+    
+    .bg-full-width.bg-fondo-1
+      .px-4.px-lg-5.pb-md-3  
+        #t_2_6.titulo-segundo(data-aos="flip-up")
+          h2 #[span 2.6] Clasificación, según su situación jurídica
+        
+        p.mb-5 Esta clasificación analiza si un bien pertenece al dominio público o al privado, lo cual determina su uso y su regulación.
+
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema2/14.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Bienes de dominio público
+                p.mb-0 Son aquellos que pertenecen al Estado y están destinados al uso común, como carreteras y ríos.
+          .col-lg-6.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema2/15.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Bienes de dominio privado
+                p.mb-0 Son bienes que pertenecen a particulares y se utilizan para fines personales o comerciales.
+
+              
+  
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -178,18 +276,18 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/115048" target="_blank" rel="noopener noreferrer") Larrea Holguín, J. (2008). Manual elemental de Derecho Civil 3. Volumen 5: el usufructo, derechos de uso y habitación, patrimonio familiar y las servidumbres. Corporación de Estudios y Publicaciones. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/56781" target="_blank" rel="noopener noreferrer") Lacruz J. (2012). Nociones de derecho civil patrimonial e introducción al derecho (7 ed.). Dykinson
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.enciclopedia-juridica.com" target="_blank" rel="noopener noreferrer") Enciclopedia Jurídica. (2020). Usufructo. 
+              a(href="https://derechocivil2ula.blogspot.com/" target="_blank" rel="noopener noreferrer") Aula de Derecho Civil. (2015). Bienes y Derechos Reales (blog). 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.lexisnexis.com/en-us/gateway.page" target="_blank" rel="noopener noreferrer") Orientaciones sobre analisis de bienes 
+              a(href="https://www.lexisnexis.com/en-us/gateway.page" target="_blank" rel="noopener noreferrer") Orientaciones sobre análisis de bienes 
             
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=U5dUoafXnZk" target="_blank" rel="noopener noreferrer") David Jiménez - Abogado Experto en Herencias. (2021). USUFRUCTO. ¿Qué es y cómo funciona?.
+              a(href="https://youtu.be/OIIxj60kXeA?si=RMv3D25DRPG6yIEq" target="_blank" rel="noopener noreferrer") Báez J. (2021). CLASIFICACIÓN JURÍDICA DE LOS BIENES.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
