@@ -198,10 +198,6 @@
                   i.lista-ul__vineta
                   p.mb-0 <b>Falta de seguridad jurídica. </b> En zonas rurales, la informalidad en la tenencia de tierras, dificulta el acceso a créditos y programas de desarrollo.
 
-            
-
-
-
 
     p.bg-color-5.p-4.mb-0 Tanto las propiedades comunes como las privadas, son fundamentales para el desarrollo social y económico de Colombia. Sin embargo, es imprescindible superar los desafíos asociados a su gestión, para garantizar un equilibrio entre el interés colectivo y los derechos individuales. Esto demanda un compromiso conjunto entre el Estado, las comunidades y los propietarios, para preservar estos bienes y maximizar su aporte al bienestar social y al desarrollo sostenible.
     
@@ -252,7 +248,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Conceptos fundamentales y clasificación de los bienes',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -261,28 +257,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              'Según el artículo 653 del Código Civil Colombiano, los bienes son: ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Cosas tangibles únicamente.  ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Elementos materiales de propiedad exclusiva.  ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Cosas susceptibles de apropiación con valor económico',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Únicamente derechos incorporales.  ',
                 esCorrecta: false,
               },
             ],
@@ -291,29 +287,28 @@ export default {
           },
           {
             id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            texto: 'Los bienes consumibles son aquellos que: ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Pueden usarse repetidamente sin agotarse. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Pueden fraccionarse sin perder su esencia.  ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Se agotan con su uso',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Son reemplazables por otros de la misma calidad.  ',
                 esCorrecta: false,
               },
             ],
@@ -322,29 +317,28 @@ export default {
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: 'La propiedad privada en Colombia:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Es un derecho absoluto e ilimitado.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Está condicionada al interés general.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Solo aplica a bienes muebles.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: ') No está regulada por la Constitución.',
                 esCorrecta: false,
               },
             ],
@@ -353,28 +347,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'Los bienes que pueden fraccionarse sin perder su esencia se denominan:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Bienes divisibles.',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Bienes fungibles.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Bienes consumibles.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Bienes no consumibles.',
                 esCorrecta: false,
               },
             ],
@@ -383,29 +378,28 @@ export default {
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: 'Un automóvil se clasifica como:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Bien inmueble.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Bien incorpóreo.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Bien mueble.',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Bien indivisible.',
                 esCorrecta: false,
               },
             ],
